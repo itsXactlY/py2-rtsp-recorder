@@ -1,6 +1,6 @@
 # Py2-RTSP-Recorder 📹💾
 
-A lightweight, ultra-robust RTSP video recorder designed for **legacy hardware**, **NAS systems**, and **embedded devices** running Python 2.7.
+A lightweight, ultra-robust RTSP video recorder designed for **legacy hardware**, **NAS systems**, and **embedded devices** running legacy Python 2.
 
 It connects to an IP camera via RTSP, authenticates (supporting Digest/Basic), extracts the raw H.264 stream, and saves it to disk with **zero transcoding**.
 
