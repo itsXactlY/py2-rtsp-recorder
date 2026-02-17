@@ -1,0 +1,13 @@
+# Credentials
+config/creds.txt
+creds.txt
+
+# Recordings
+recordings/
+*.h264
+*.mp4
+
+# System files
+*.pyc
+.DS_Store
+service.log*
