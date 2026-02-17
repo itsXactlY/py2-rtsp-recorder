@@ -4,7 +4,7 @@ A lightweight, ultra-robust RTSP video recorder designed for **legacy hardware**
 
 It connects to an IP camera via RTSP, authenticates (supporting Digest/Basic), extracts the raw H.264 stream, and saves it to disk with **zero transcoding**.
 
-> **Why?** Because modern tools like `ffmpeg` or `OpenCV` are often too heavy, incompatible, or impossible to compile on old ARM/MIPS kernels (e.g., Linux 2.6). This script uses standard libraries only and runs on <5% CPU.
+> **Why?** Because modern tools like `ffmpeg` or `OpenCV` are often too heavy, incompatible, or impossible to compile on old ARM/MIPS kernels (e.g., Linux 2.6). This script uses standard libraries only and runs on <5% CPU. (<2% on ARMV5 - 990MHz Feroceon 88FR131 rev 1)
 
 ---
 
